@@ -1,10 +1,10 @@
 function choice1(select) {
     if (select.options[select.selectedIndex].text === 'Latvian') {
-        alert('Latvian');
+        alert('Sveiki');
     } else if (select.options[select.selectedIndex].text === 'Russian') {
-        alert('Russian');
+        alert('Privet');
     } else {
-        alert('English')
+        alert('Hello')
     }
 
 }
