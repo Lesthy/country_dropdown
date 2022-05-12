@@ -1,12 +1,10 @@
 
   
-    const countries = ['UK', 'Latvia', 'Russia'],
-        select = document.getElementById('countries');
+    const countries = ['UK', 'Latvia', 'Russia'];
+    const select = document.getElementById('countries');
 
     for (country in countries) {
-
         select.add(new Option(countries[country]));
-
     };
 
   
